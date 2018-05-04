@@ -1,0 +1,104 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "now assistant",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Generic",
+                    "slots": [
+                        {
+                            "name": "CatchAll",
+                            "type": "CatchAll"
+                        }
+                    ],
+                    "samples": [
+                        "{CatchAll}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CatchAll",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "more words might be needed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anything and everything"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anything and"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "qwertz"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
